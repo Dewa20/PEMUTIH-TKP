@@ -1,0 +1,11 @@
+D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\obj\Debug\Contoh II.xml
+D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\obj\Debug\Contoh II.pdb
+D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\obj\Debug\ResolveAssemblyReference.cache
+D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\obj\Debug\Contoh_II.Form1.resources
+D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\obj\Debug\Contoh_II.Resources.resources
+D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\obj\Debug\GenerateResource.read.1.tlog
+D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\obj\Debug\GenerateResource.write.1.tlog
+D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\bin\Contoh II.exe
+D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\bin\Contoh II.pdb
+D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\bin\Contoh II.xml
+D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\obj\Debug\Contoh II.exe
