@@ -11,7 +11,7 @@
     </ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
-    <AssemblyName>Contoh II</AssemblyName>
+    <AssemblyName>PEMUTIH TKP</AssemblyName>
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
     <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
@@ -23,8 +23,8 @@
     <OptionCompare>Binary</OptionCompare>
     <OptionExplicit>On</OptionExplicit>
     <OptionStrict>Off</OptionStrict>
-    <RootNamespace>Contoh_II</RootNamespace>
-    <StartupObject>Contoh_II.Form1</StartupObject>
+    <RootNamespace>PEMUTIH_TKP</RootNamespace>
+    <StartupObject>PEMUTIH_TKP.Form1</StartupObject>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <MyType>WindowsFormsWithCustomSubMain</MyType>
@@ -35,7 +35,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>Contoh II.xml</DocumentationFile>
+    <DocumentationFile>PEMUTIH TKP.xml</DocumentationFile>
     <BaseAddress>285212672</BaseAddress>
     <ConfigurationOverrideFile>
     </ConfigurationOverrideFile>
@@ -54,7 +54,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>Contoh II.xml</DocumentationFile>
+    <DocumentationFile>PEMUTIH TKP.xml</DocumentationFile>
     <BaseAddress>285212672</BaseAddress>
     <ConfigurationOverrideFile>
     </ConfigurationOverrideFile>

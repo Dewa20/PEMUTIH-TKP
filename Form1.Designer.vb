@@ -77,7 +77,7 @@ Partial Class Form1
         Me.Font = New System.Drawing.Font("Courier New", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
-        Me.Text = "Image Viewer"
+        Me.Text = "PEMUTIH TKP"
         Me.ToolStrip.ResumeLayout(False)
         Me.ToolStrip.PerformLayout()
         CType(Me.Pic, System.ComponentModel.ISupportInitialize).EndInit()
