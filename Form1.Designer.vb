@@ -19,77 +19,52 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.ToolStrip = New System.Windows.Forms.ToolStrip()
-        Me.TSBuka = New System.Windows.Forms.ToolStripButton()
-        Me.toolStripSeparator = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Pic = New System.Windows.Forms.PictureBox()
-        Me.Timer = New System.Windows.Forms.Timer(Me.components)
-        Me.OpenDlg = New System.Windows.Forms.OpenFileDialog()
-        Me.ToolStrip.SuspendLayout()
-        CType(Me.Pic, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ButtomMulai = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'ToolStrip
+        'Label1
         '
-        Me.ToolStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TSBuka, Me.toolStripSeparator})
-        Me.ToolStrip.Location = New System.Drawing.Point(0, 0)
-        Me.ToolStrip.Name = "ToolStrip"
-        Me.ToolStrip.Size = New System.Drawing.Size(400, 25)
-        Me.ToolStrip.TabIndex = 9
-        Me.ToolStrip.Text = "ToolStrip1"
+        Me.Label1.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label1.Font = New System.Drawing.Font("Kristen ITC", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(-2, -2)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(581, 54)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "APLIKASI PEMUTIH TKP"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'TSBuka
+        'ButtomMulai
         '
-        Me.TSBuka.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.TSBuka.Image = CType(resources.GetObject("TSBuka.Image"), System.Drawing.Image)
-        Me.TSBuka.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.TSBuka.Name = "TSBuka"
-        Me.TSBuka.Size = New System.Drawing.Size(23, 22)
-        Me.TSBuka.Text = "&Open"
-        '
-        'toolStripSeparator
-        '
-        Me.toolStripSeparator.Name = "toolStripSeparator"
-        Me.toolStripSeparator.Size = New System.Drawing.Size(6, 25)
-        '
-        'Pic
-        '
-        Me.Pic.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Pic.Location = New System.Drawing.Point(0, 28)
-        Me.Pic.Name = "Pic"
-        Me.Pic.Size = New System.Drawing.Size(400, 400)
-        Me.Pic.TabIndex = 7
-        Me.Pic.TabStop = False
-        '
-        'Timer
-        '
+        Me.ButtomMulai.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.ButtomMulai.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ButtomMulai.Font = New System.Drawing.Font("Kristen ITC", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtomMulai.Location = New System.Drawing.Point(-2, 375)
+        Me.ButtomMulai.Name = "ButtomMulai"
+        Me.ButtomMulai.Size = New System.Drawing.Size(581, 50)
+        Me.ButtomMulai.TabIndex = 1
+        Me.ButtomMulai.Text = "MULAI"
+        Me.ButtomMulai.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(400, 452)
-        Me.Controls.Add(Me.ToolStrip)
-        Me.Controls.Add(Me.Pic)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.ClientSize = New System.Drawing.Size(578, 425)
+        Me.Controls.Add(Me.ButtomMulai)
+        Me.Controls.Add(Me.Label1)
+        Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Courier New", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
         Me.Text = "PEMUTIH TKP"
-        Me.ToolStrip.ResumeLayout(False)
-        Me.ToolStrip.PerformLayout()
-        CType(Me.Pic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents ToolStrip As System.Windows.Forms.ToolStrip
-    Friend WithEvents TSBuka As System.Windows.Forms.ToolStripButton
-    Friend WithEvents toolStripSeparator As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents ToolTip As System.Windows.Forms.ToolTip
-    Friend WithEvents Pic As System.Windows.Forms.PictureBox
-    Friend WithEvents Timer As System.Windows.Forms.Timer
-    Friend WithEvents OpenDlg As System.Windows.Forms.OpenFileDialog
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents ButtomMulai As System.Windows.Forms.Button
 End Class

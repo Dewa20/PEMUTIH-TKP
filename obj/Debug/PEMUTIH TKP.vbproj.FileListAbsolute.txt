@@ -9,3 +9,5 @@ D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\bin\PEMUTIH TKP.pdb
 D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\bin\PEMUTIH TKP.xml
 D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\obj\Debug\PEMUTIH_TKP.Form1.resources
 D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\obj\Debug\PEMUTIH_TKP.Resources.resources
+D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\obj\Debug\PEMUTIH_TKP.Form2.resources
+D:\Data Kuliah\Semester-7\PKTI\GIT_101111805_Ewa\obj\Debug\PEMUTIH_TKP.About.resources
